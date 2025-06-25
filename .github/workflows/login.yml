@@ -37,8 +37,3 @@ jobs:
           git add -A
           git commit -m "update by github actions"
           git push
-
-        uses: actions/upload-artifact@v3
-        with:
-          name: login-log
-          path: log.txt
